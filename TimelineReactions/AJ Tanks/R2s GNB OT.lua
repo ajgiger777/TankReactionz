@@ -44,14 +44,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
 							uuid = "9fd0c04c-5139-6839-bb3e-ca43d86b0186",
 							variableTogglesType = 3,
@@ -61,17 +53,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 61.2,
 				name = "Nebula",
@@ -97,14 +78,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"44f56d6b-74b3-7151-9219-88675017b8b2",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
 							uuid = "763a91fa-0af6-6cc5-b862-fdd3790b92fa",
 							variableTogglesType = 3,
@@ -115,17 +88,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "44f56d6b-74b3-7151-9219-88675017b8b2",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 61.2,
 				name = "Camo",
@@ -185,14 +147,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
 							uuid = "ce4c74f6-d7fe-5dde-bb0f-f64cdcc989fc",
 							variableTogglesType = 3,
@@ -202,17 +156,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 61.2,
 				name = "Rampart",
@@ -338,6 +281,150 @@ local tbl =
 			},
 		},
 	},
+	[20] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 103,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 20,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "78426e03-3323-dd6b-bf9f-a477d56647e9",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 103,
+				name = "HOC MT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 20,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999999761581,
+				uuid = "40ac654a-fe06-62e5-9dbb-e5d82bd6c2fc",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[29] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150.4,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 29,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "707f4afb-5d6f-1c50-8f09-ea620d83babe",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150.4,
+				name = "HOC MT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 29,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999999761581,
+				uuid = "5f5c38d3-22d8-3886-a363-1c1d091726e2",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
 	[35] = 
 	{
 		
@@ -460,14 +547,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
 							uuid = "9fd0c04c-5139-6839-bb3e-ca43d86b0186",
 							variableTogglesType = 3,
@@ -477,17 +556,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 202.4,
 				name = "Nebula",
@@ -513,14 +581,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"44f56d6b-74b3-7151-9219-88675017b8b2",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
 							uuid = "763a91fa-0af6-6cc5-b862-fdd3790b92fa",
 							variableTogglesType = 3,
@@ -531,17 +591,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "44f56d6b-74b3-7151-9219-88675017b8b2",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 202.4,
 				name = "Camo",
@@ -601,14 +650,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
 							uuid = "ce4c74f6-d7fe-5dde-bb0f-f64cdcc989fc",
 							variableTogglesType = 3,
@@ -618,17 +659,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 202.4,
 				name = "Rampart",
@@ -791,6 +821,78 @@ local tbl =
 			},
 		},
 	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 271.9,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "e336045a-522e-cf31-9dff-0c9ae6bfbdcf",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 271.9,
+				name = "HOC MT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999999761581,
+				uuid = "6c253d18-07ef-a946-962f-f927073e08cb",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
 	[59] = 
 	{
 		
@@ -900,6 +1002,78 @@ local tbl =
 			},
 		},
 	},
+	[65] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 343,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 65,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "f26b30cb-ec3c-db13-a059-5ee18ec71a4c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 343,
+				name = "HOC MT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 65,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999999761581,
+				uuid = "dcf8f478-c9ec-916e-8032-82eed753fff7",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
 	[72] = 
 	{
 		
@@ -913,14 +1087,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
 							uuid = "9fd0c04c-5139-6839-bb3e-ca43d86b0186",
 							variableTogglesType = 3,
@@ -930,17 +1096,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 376.2,
 				name = "Nebula",
@@ -966,14 +1121,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"44f56d6b-74b3-7151-9219-88675017b8b2",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
 							uuid = "763a91fa-0af6-6cc5-b862-fdd3790b92fa",
 							variableTogglesType = 3,
@@ -984,17 +1131,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "44f56d6b-74b3-7151-9219-88675017b8b2",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 376.2,
 				name = "Camo",
@@ -1020,14 +1156,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
 							uuid = "ce4c74f6-d7fe-5dde-bb0f-f64cdcc989fc",
 							variableTogglesType = 3,
@@ -1037,17 +1165,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 376.2,
 				name = "Rampart",
@@ -1329,14 +1446,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
 							uuid = "9fd0c04c-5139-6839-bb3e-ca43d86b0186",
 							variableTogglesType = 3,
@@ -1346,17 +1455,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "9e7b8a36-d4b1-371a-bbfb-facdd26d3f30",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 499.2,
 				name = "Nebula",
@@ -1382,14 +1480,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"44f56d6b-74b3-7151-9219-88675017b8b2",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
 							uuid = "763a91fa-0af6-6cc5-b862-fdd3790b92fa",
 							variableTogglesType = 3,
@@ -1400,17 +1490,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "44f56d6b-74b3-7151-9219-88675017b8b2",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 499.2,
 				name = "Camo",
@@ -1470,34 +1549,16 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-									true,
-								},
-							},
 							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
 							uuid = "ce4c74f6-d7fe-5dde-bb0f-f64cdcc989fc",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "return TensorCore.API.RikuGNB3.TankStance(\"mt\")",
-							name = "MT Toggle On",
-							uuid = "c8d62115-9975-c3f6-b4b2-ff12d0a1351e",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 499.2,
 				name = "Rampart",
