@@ -920,7 +920,7 @@ local tbl =
 				name = "[T] Provoke",
 				timeRange = true,
 				timelineIndex = 48,
-				timerStartOffset = -6,
+				timerStartOffset = -15,
 				uuid = "8bf4b3ec-3f1f-f258-9024-217ef9acc384",
 				version = 2,
 			},
