@@ -970,24 +970,26 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Lua",
+							actionLua = "self.used = true\n",
 							conditions = 
 							{
 								
 								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuDRK3_CD",
-							name = "Humanizer",
-							uuid = "9fe7758c-ef7d-9de3-9778-63be49f160dc",
+							uuid = "9b69b238-8ceb-b2cc-a58b-57460a04d37f",
 							version = 2.1,
 						},
+						inheritedIndex = 1,
 					},
 					
 					{
@@ -998,17 +1000,17 @@ local tbl =
 							{
 								
 								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
-							uuid = "1ae0d35a-d442-d8f5-bc2d-378e90590636",
+							uuid = "19c49e01-dfb2-e629-bd59-a72d1233bdb1",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
@@ -1022,17 +1024,17 @@ local tbl =
 							{
 								
 								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ReleaseRoyalGuard",
-							uuid = "6580f3fc-97f0-36bb-b729-c90e95a811f2",
+							uuid = "afedf610-a9bc-fc33-8173-fbd31de388fb",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
@@ -1050,7 +1052,7 @@ local tbl =
 							eventSpellID = 7533,
 							filterTargetType = "Event Entity",
 							name = "Someone Voked",
-							uuid = "6da8db20-6f48-235b-9f78-b6ca477df7b4",
+							uuid = "c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 							version = 2,
 						},
 					},
@@ -1063,20 +1065,20 @@ local tbl =
 							inGroupTargetType = "Other Tank",
 							name = "It was the Other Tank",
 							partyTargetType = "Event Entity",
-							uuid = "8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+							uuid = "e33fdfd6-d02e-2909-8c5e-be287af91280",
 							version = 2,
 						},
 					},
 				},
 				eventType = 2,
 				mechanicTime = 302.9,
-				name = "Shirk 20 second Check",
-				throttleTime = 600,
+				name = "Shirk 40 second Check",
+				throttleTime = 790,
 				timeRange = true,
 				timelineIndex = 50,
 				timerOffset = -20,
-				timerStartOffset = -20,
-				uuid = "d3355598-2cc0-022c-804d-98fd85b323ce",
+				timerStartOffset = -40,
+				uuid = "c102834e-e5ee-f06e-9c4a-57261988cb4c",
 				version = 2,
 			},
 		},
