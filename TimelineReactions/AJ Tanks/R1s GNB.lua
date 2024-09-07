@@ -37,65 +37,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Voke",
-				uuid = "dc29ca2b-7921-4013-9531-e399664be668",
-				version = 2,
-			},
-			inheritedObjectUUID = "3dc20ae1-d169-24ef-a414-7d746bfe5151",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -3.7999999523163,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Vigil",
-				uuid = "5a448dd7-5df2-57a5-a223-882c03fa37ac",
-				version = 2,
-			},
-			inheritedObjectUUID = "81ecc9e5-55fb-6cff-8234-9c5361d036b8",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -11.699999809265,
-				timerStartOffset = -14.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Oblation",
-				uuid = "1564808f-9b0c-02ca-853c-c71ee6f38f8b",
-				version = 2,
-			},
-			inheritedObjectUUID = "6e003b24-76c2-0f4e-a89f-007ed96b179d",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -6.6999998092651,
-				timerStartOffset = -9.8999996185303,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Rampart",
-				uuid = "9427cf41-7d6c-3db7-b6c5-54191a647247",
-				version = 2,
-			},
-			inheritedObjectUUID = "5e667b67-eb0a-3355-a2f5-75b7623ad2b3",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -16.700000762939,
-				timerStartOffset = -19.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -379,67 +320,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Voke Back",
-				uuid = "06026e5c-cc5c-4f49-a97c-73726bc22cd7",
-				version = 2,
-			},
-			inheritedObjectUUID = "558afd21-3fbf-70b9-bff6-4cbde6ea0e32",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = 0.89999997615814,
-				timerStartOffset = 0.050000000745058,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Vigil",
-				uuid = "0744c26d-5754-61f9-81e1-c484b074e60e",
-				version = 2,
-			},
-			inheritedObjectUUID = "42728dda-4f50-3984-b8ac-bb10cc50b4a1",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -11.699999809265,
-				timerStartOffset = -14.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Oblation",
-				uuid = "5b29af81-3296-e2fc-8612-3ea0baba60b0",
-				version = 2,
-			},
-			inheritedObjectUUID = "8d67b249-a305-a26d-abff-792b900d35fe",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -6.6999998092651,
-				timerStartOffset = -9.8999996185303,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Rampart",
-				uuid = "6063ea34-b61b-1dc2-a779-74d2a201efe0",
-				version = 2,
-			},
-			inheritedIndex = 4,
-			inheritedObjectUUID = "adb82f60-3ebb-2f9d-90bf-480c8ecfb8e6",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -16.700000762939,
-				timerStartOffset = -19.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -660,72 +540,51 @@ local tbl =
 					{
 						data = 
 						{
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_CD",
-							name = "Humanizer",
-							uuid = "020f6e57-846f-80ec-ae54-d93e5a921619",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
-							uuid = "62146994-d76b-054a-bd38-ab2705a53b8f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ReleaseRoyalGuard",
-							uuid = "30a8198d-fef2-63cc-ac73-12e9f353801d",
+							uuid = "afedf610-a9bc-fc33-8173-fbd31de388fb",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
+									true,
+								},
+								
+								{
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
+							uuid = "19c49e01-dfb2-e629-bd59-a72d1233bdb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
 					},
 				},
 				conditions = 
@@ -740,7 +599,7 @@ local tbl =
 							eventSpellID = 7533,
 							filterTargetType = "Event Entity",
 							name = "Someone Voked",
-							uuid = "96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+							uuid = "c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 							version = 2,
 						},
 					},
@@ -753,7 +612,7 @@ local tbl =
 							inGroupTargetType = "Other Tank",
 							name = "It was the Other Tank",
 							partyTargetType = "Event Entity",
-							uuid = "42a671cb-4b49-111a-afa6-78a5bb577b86",
+							uuid = "e33fdfd6-d02e-2909-8c5e-be287af91280",
 							version = 2,
 						},
 					},
@@ -761,12 +620,12 @@ local tbl =
 				eventType = 2,
 				mechanicTime = 44.4,
 				name = "Shirk 20 second Check",
-				throttleTime = 600,
+				throttleTime = 609,
 				timeRange = true,
 				timelineIndex = 9,
 				timerOffset = -20,
 				timerStartOffset = -20,
-				uuid = "f12b4a5c-ec72-cd40-aefc-a27861d4d4d0",
+				uuid = "1e8aa94a-9ec8-1b4f-83a1-0c00b27176dc",
 				version = 2,
 			},
 		},
@@ -804,20 +663,6 @@ local tbl =
 	},
 	[31] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Reprisal",
-				uuid = "4574c809-449e-95fb-b3d0-461ecd30c1fb",
-				version = 2,
-			},
-			inheritedObjectUUID = "c636206d-0997-0933-817d-af5a76337897",
-			inheritedOverwrites = 
-			{
-				timerStartOffset = -14.89999961853,
-			},
-		},
 		
 		{
 			data = 
@@ -893,36 +738,6 @@ local tbl =
 	},
 	[53] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Vigil",
-				uuid = "06b33f48-2f16-5621-9f5d-b50fed2e36d5",
-				version = 2,
-			},
-			inheritedObjectUUID = "ff9e0686-7194-19ab-8298-c19e4f7ce104",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -11.699999809265,
-				timerStartOffset = -14.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "TBN MT",
-				uuid = "b40f491b-61a5-e6ac-93b5-f9057056d5a2",
-				version = 2,
-			},
-			inheritedObjectUUID = "7d40a565-b72d-e85a-af20-9466d086ac26",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -4.6999998092651,
-				timerStartOffset = -5.9000000953674,
-			},
-		},
 		
 		{
 			data = 
@@ -1209,21 +1024,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Vigil",
-				uuid = "cb33f286-15e7-51ea-9482-602baf2fdb76",
-				version = 2,
-			},
-			inheritedObjectUUID = "71f74784-0b0b-ac8c-8e32-49ae1949ab6a",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -11.699999809265,
-				timerStartOffset = -14.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -1444,72 +1244,51 @@ local tbl =
 					{
 						data = 
 						{
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_CD",
-							name = "Humanizer",
-							uuid = "020f6e57-846f-80ec-ae54-d93e5a921619",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
-							uuid = "62146994-d76b-054a-bd38-ab2705a53b8f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ReleaseRoyalGuard",
-							uuid = "30a8198d-fef2-63cc-ac73-12e9f353801d",
+							uuid = "afedf610-a9bc-fc33-8173-fbd31de388fb",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
+									true,
+								},
+								
+								{
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
+							uuid = "19c49e01-dfb2-e629-bd59-a72d1233bdb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
 					},
 				},
 				conditions = 
@@ -1524,7 +1303,7 @@ local tbl =
 							eventSpellID = 7533,
 							filterTargetType = "Event Entity",
 							name = "Someone Voked",
-							uuid = "96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+							uuid = "c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 							version = 2,
 						},
 					},
@@ -1537,7 +1316,7 @@ local tbl =
 							inGroupTargetType = "Other Tank",
 							name = "It was the Other Tank",
 							partyTargetType = "Event Entity",
-							uuid = "42a671cb-4b49-111a-afa6-78a5bb577b86",
+							uuid = "e33fdfd6-d02e-2909-8c5e-be287af91280",
 							version = 2,
 						},
 					},
@@ -1545,12 +1324,12 @@ local tbl =
 				eventType = 2,
 				mechanicTime = 235.2,
 				name = "Shirk 20 second Check",
-				throttleTime = 600,
+				throttleTime = 609,
 				timeRange = true,
 				timelineIndex = 55,
 				timerOffset = -20,
 				timerStartOffset = -20,
-				uuid = "253da15e-ef11-f06f-8d66-5884eb257396",
+				uuid = "18e82456-487b-b4ab-91da-f6cc51bbcb0f",
 				version = 2,
 			},
 		},
@@ -1588,20 +1367,6 @@ local tbl =
 	},
 	[103] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Reprisal",
-				uuid = "6e3c69a1-f742-c87d-9752-ea6ebf272ec2",
-				version = 2,
-			},
-			inheritedObjectUUID = "a1492c62-1a44-9ddf-bc3d-b385010367df",
-			inheritedOverwrites = 
-			{
-				timerStartOffset = -14.89999961853,
-			},
-		},
 		
 		{
 			data = 
@@ -1677,35 +1442,6 @@ local tbl =
 	},
 	[139] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Voke",
-				uuid = "b5f3a762-bb2c-b04e-87b2-a7ed2bdba704",
-				version = 2,
-			},
-			inheritedObjectUUID = "3df3ded5-6b51-e984-9dc3-957a93220f99",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -3.7999999523163,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Vigil",
-				uuid = "266d4d50-1dc4-cfe0-bb1f-1f458a163118",
-				version = 2,
-			},
-			inheritedObjectUUID = "ae82c1e2-5a75-9b62-8ba9-296354d304f4",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = -11.699999809265,
-				timerStartOffset = -14.89999961853,
-			},
-		},
 		
 		{
 			data = 
@@ -1994,21 +1730,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Voke Back",
-				uuid = "4ca39b13-160d-444e-8f80-b2757abb965b",
-				version = 2,
-			},
-			inheritedObjectUUID = "9c1cbefc-6fee-7015-bedc-08450d087ba1",
-			inheritedOverwrites = 
-			{
-				timerEndOffset = 0.89999997615814,
-				timerStartOffset = 0.050000000745058,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -2229,72 +1950,51 @@ local tbl =
 					{
 						data = 
 						{
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_CD",
-							name = "Humanizer",
-							uuid = "020f6e57-846f-80ec-ae54-d93e5a921619",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
-							uuid = "62146994-d76b-054a-bd38-ab2705a53b8f",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
-									true,
-								},
-								
-								{
-									"42a671cb-4b49-111a-afa6-78a5bb577b86",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ReleaseRoyalGuard",
-							uuid = "30a8198d-fef2-63cc-ac73-12e9f353801d",
+							uuid = "afedf610-a9bc-fc33-8173-fbd31de388fb",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
+									true,
+								},
+								
+								{
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
+							uuid = "19c49e01-dfb2-e629-bd59-a72d1233bdb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
 					},
 				},
 				conditions = 
@@ -2309,7 +2009,7 @@ local tbl =
 							eventSpellID = 7533,
 							filterTargetType = "Event Entity",
 							name = "Someone Voked",
-							uuid = "96fb5c18-11eb-fed8-97e9-01d26b2f0af1",
+							uuid = "c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 							version = 2,
 						},
 					},
@@ -2322,7 +2022,7 @@ local tbl =
 							inGroupTargetType = "Other Tank",
 							name = "It was the Other Tank",
 							partyTargetType = "Event Entity",
-							uuid = "42a671cb-4b49-111a-afa6-78a5bb577b86",
+							uuid = "e33fdfd6-d02e-2909-8c5e-be287af91280",
 							version = 2,
 						},
 					},
@@ -2330,12 +2030,12 @@ local tbl =
 				eventType = 2,
 				mechanicTime = 619.1,
 				name = "Shirk 20 second Check",
-				throttleTime = 600,
+				throttleTime = 609,
 				timeRange = true,
 				timelineIndex = 141,
 				timerOffset = -20,
 				timerStartOffset = -20,
-				uuid = "36f9fe04-3025-e8fd-a2ea-1870dbfd07fe",
+				uuid = "f67318ad-ebad-63d9-9547-d8f9ba9c2b25",
 				version = 2,
 			},
 		},
@@ -2408,6 +2108,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage4\\r1s",
 	},
 	mapID = 1226,
 	version = 3,

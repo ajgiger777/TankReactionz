@@ -366,40 +366,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
-							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 150.4,
-				name = "Aurora OT",
-				randomOffset = -4.6999998092651,
-				timeRandomRange = true,
-				timeRange = true,
-				timelineIndex = 29,
-				timerEndOffset = -0.5,
-				timerOffset = -5.9000000953674,
-				timerStartOffset = -1.8999996185303,
-				uuid = "707f4afb-5d6f-1c50-8f09-ea620d83babe",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
 							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
 							variableTogglesType = 3,
@@ -423,6 +389,40 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150.4,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 29,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "707f4afb-5d6f-1c50-8f09-ea620d83babe",
+				version = 2,
+			},
 		},
 	},
 	[35] = 
@@ -834,40 +834,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
-							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 271.9,
-				name = "Aurora OT",
-				randomOffset = -4.6999998092651,
-				timeRandomRange = true,
-				timeRange = true,
-				timelineIndex = 44,
-				timerEndOffset = -0.5,
-				timerOffset = -5.9000000953674,
-				timerStartOffset = -1.8999996185303,
-				uuid = "e336045a-522e-cf31-9dff-0c9ae6bfbdcf",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumMT",
 							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
 							variableTogglesType = 3,
@@ -891,6 +857,40 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "da39a5e3-d628-321c-977a-28b96de2cc48",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 271.9,
+				name = "Aurora OT",
+				randomOffset = -4.6999998092651,
+				timeRandomRange = true,
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -0.5,
+				timerOffset = -5.9000000953674,
+				timerStartOffset = -1.8999996185303,
+				uuid = "e336045a-522e-cf31-9dff-0c9ae6bfbdcf",
+				version = 2,
+			},
 		},
 	},
 	[59] = 

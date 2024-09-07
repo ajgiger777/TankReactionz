@@ -170,20 +170,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Jump",
-				uuid = "74d19fa5-e9cd-c003-be3e-11294b8ed9d2",
-				version = 2,
-			},
-			inheritedObjectUUID = "dc760f3b-093b-c818-a1ea-113869bce4cc",
-			inheritedOverwrites = 
-			{
-				timerStartOffset = 0.10000000149012,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -970,72 +956,51 @@ local tbl =
 					{
 						data = 
 						{
-							conditions = 
-							{
-								
-								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
-									true,
-								},
-								
-								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK3_CD",
-							name = "Humanizer",
-							uuid = "9fe7758c-ef7d-9de3-9778-63be49f160dc",
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
 							aType = "ACR",
 							conditions = 
 							{
 								
 								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 									true,
 								},
 								
 								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
-							uuid = "1ae0d35a-d442-d8f5-bc2d-378e90590636",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"6da8db20-6f48-235b-9f78-b6ca477df7b4",
-									true,
-								},
-								
-								{
-									"8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
 									true,
 								},
 							},
 							gVar = "ACR_RikuGNB3_Hotbar_ReleaseRoyalGuard",
-							uuid = "6580f3fc-97f0-36bb-b729-c90e95a811f2",
+							uuid = "afedf610-a9bc-fc33-8173-fbd31de388fb",
 							variableTogglesType = 2,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
+									true,
+								},
+								
+								{
+									"e33fdfd6-d02e-2909-8c5e-be287af91280",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
+							uuid = "19c49e01-dfb2-e629-bd59-a72d1233bdb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+						inheritedIndex = 2,
 					},
 				},
 				conditions = 
@@ -1050,7 +1015,7 @@ local tbl =
 							eventSpellID = 7533,
 							filterTargetType = "Event Entity",
 							name = "Someone Voked",
-							uuid = "6da8db20-6f48-235b-9f78-b6ca477df7b4",
+							uuid = "c5e476c9-411e-6b8d-ac4f-eaf54d4c0bb9",
 							version = 2,
 						},
 					},
@@ -1063,20 +1028,20 @@ local tbl =
 							inGroupTargetType = "Other Tank",
 							name = "It was the Other Tank",
 							partyTargetType = "Event Entity",
-							uuid = "8ac91889-d1ba-8cda-9dc7-a96a66f5fd15",
+							uuid = "e33fdfd6-d02e-2909-8c5e-be287af91280",
 							version = 2,
 						},
 					},
 				},
 				eventType = 2,
 				mechanicTime = 302.9,
-				name = "Shirk 20 second Check",
-				throttleTime = 600,
+				name = "Shirk 40 second Check",
+				throttleTime = 609,
 				timeRange = true,
 				timelineIndex = 50,
 				timerOffset = -20,
-				timerStartOffset = -20,
-				uuid = "d3355598-2cc0-022c-804d-98fd85b323ce",
+				timerStartOffset = -40,
+				uuid = "36a49ec1-7385-6991-b44c-4afca8d477bf",
 				version = 2,
 			},
 		},
@@ -1253,7 +1218,7 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Burn",
+							gVar = "ACR_RikuGNB3_Burn",
 							gVarValue = 2,
 							uuid = "91e0cd2b-d1bb-4e39-84de-ecda3a8bdde2",
 							version = 2.1,
